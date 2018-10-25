@@ -4,6 +4,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using XF.Recursos.App_Code;
 using XF.Recursos.Controles;
+using XF.Recursos.Estilo;
 
 namespace XF.Recursos.Menu
 {
@@ -47,6 +48,11 @@ namespace XF.Recursos.Menu
                 {
                     Descricao = "Controle de Progresso",
                     TargetType = typeof(ProgressoView)
+                },
+                new OpcoesMenu
+                {
+                    Descricao = "Estilo Dinâmico",
+                    TargetType = typeof(DinamicoView)
                 }
             };
 
